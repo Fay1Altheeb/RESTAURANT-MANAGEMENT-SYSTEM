@@ -1,0 +1,17 @@
+The restaurant has many employees, each described by a unique ID, phone number, national address, name, age, email, gender, position, and salary.
+
+The restaurant has many branches. Each branch has a unique code, location (city, neighborhood, street), capacity, and time (opening time, closing time) changes according to the days.
+
+Each branch has at least 4 employees working for it where every employee should work for at least one branch, and every branch should be managed by one employee. 
+  
+Each branch offers only one menu, which has a unique ID and name. Many branches can have the same menu.
+
+Every menu offers many dishes, every dish has a unique code, price, category, name, description, and calories.
+
+Each order has a unique number, and place. Orders can pick as many as wanted only from dishes and quantity must be placed with the dish, and the dish can be picked for many orders.
+
+Each order has one bill, which has a unique number, total price, state, offer, time described as (hour, minute), unique date and payment method.
+
+The restaurant has many customers who are described by their name and phone number, each customer must request at least one order.
+
+ The customer must pay the bill for his orders, 
